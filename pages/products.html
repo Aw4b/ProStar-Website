@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products - Pro Star Martial Arts Equipment</title>
-    <meta name="description" content="Browse our professional martial arts equipment: Boxing gloves, MMA gear, and BJJ apparel. Premium quality from Italy.">
+    <meta name="description" content="Explore Pro Star's collection of martial arts equipment for Boxing, MMA, and Brazilian Jiu Jitsu.">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -15,17 +15,13 @@
     <nav class="fixed top-0 w-full bg-gray-900 z-50 shadow-lg">
         <div class="container mx-auto px-4">
             <div class="flex justify-between items-center py-4">
-                <!-- Logo -->
                 <div class="flex items-center space-x-3">
                     <div class="logo-container">
-                        <div class="w-10 h-10 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-full flex items-center justify-center">
-                            <span class="text-gray-900 font-bold text-lg">PS</span>
-                        </div>
+                        <img src="../images/gpt-image-1_create_a_logo_for_my.png" alt="Pro Star Logo" class="logo-image">
                     </div>
                     <h1 class="text-2xl font-bold text-white">Pro <span class="text-yellow-400">Star</span></h1>
                 </div>
                 
-                <!-- Desktop Navigation -->
                 <div class="hidden md:flex space-x-8">
                     <a href="../index.html" class="nav-link text-white hover:text-yellow-400 transition duration-300">
                         <span data-translate="nav-home">Home</span>
@@ -41,15 +37,10 @@
                     </a>
                 </div>
                 
-                <!-- Language & Mobile Menu -->
                 <div class="flex items-center space-x-4">
                     <div class="language-switcher flex space-x-2">
-                        <button onclick="switchLanguage('en')" class="lang-btn text-white hover:text-yellow-400 transition duration-300" id="lang-en">
-                            🇬🇧 EN
-                        </button>
-                        <button onclick="switchLanguage('it')" class="lang-btn text-white hover:text-yellow-400 transition duration-300" id="lang-it">
-                            🇮🇹 IT
-                        </button>
+                        <button onclick="switchLanguage('en')" class="lang-btn text-white hover:text-yellow-400 transition duration-300" id="lang-en">🇬🇧 EN</button>
+                        <button onclick="switchLanguage('it')" class="lang-btn text-white hover:text-yellow-400 transition duration-300" id="lang-it">🇮🇹 IT</button>
                     </div>
                     <button class="md:hidden text-white" onclick="toggleMobileMenu()">
                         <i class="fas fa-bars text-xl"></i>
@@ -57,7 +48,6 @@
                 </div>
             </div>
             
-            <!-- Mobile Menu -->
             <div id="mobile-menu" class="md:hidden hidden pb-4 border-t border-gray-700 pt-4">
                 <a href="../index.html" class="block py-3 text-white hover:text-yellow-400 transition duration-300" onclick="toggleMobileMenu()">
                     <span data-translate="nav-home">Home</span>
@@ -80,65 +70,34 @@
         <div class="container mx-auto px-4 text-center">
             <h1 class="text-5xl font-bold mb-4" data-translate="products-title">Our Products</h1>
             <p class="text-xl text-gray-300 max-w-2xl mx-auto">
-                Professional martial arts equipment crafted with precision and quality
+                Explore our premium martial arts equipment for Boxing, MMA, and Brazilian Jiu Jitsu.
             </p>
         </div>
     </section>
 
-    <!-- Products Section -->
+    <!-- Product Categories -->
     <section class="section-padding">
         <div class="container mx-auto px-4">
-            <!-- Category Filters -->
-            <div class="filter-container">
-                <div class="filter-wrapper">
-                    <button class="filter-btn active" onclick="filterProducts('all')" data-translate="filter-all">All</button>
-                    <button class="filter-btn" onclick="filterProducts('boxing')" data-translate="filter-boxing">Boxing</button>
-                    <button class="filter-btn" onclick="filterProducts('mma')" data-translate="filter-mma">MMA</button>
-                    <button class="filter-btn" onclick="filterProducts('bjj')" data-translate="filter-bjj">BJJ</button>
-                </div>
-            </div>
-
-            <!-- Products Grid -->
-            <div class="product-grid">
+            <div class="products-grid">
                 <!-- Boxing Products -->
                 <div class="product-card" data-category="boxing">
-                    <img src="https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=400&h=300&fit=crop&q=80" alt="Pro Star Classic Boxing Gloves" class="product-image">
+                    <img src="../images/products/boxing/gpt-image-1_A_pair_of_realistic_.png" alt="Pro Star Classic Boxing Gloves" class="product-image">
                     <div class="product-info">
                         <span class="product-category category-boxing">Boxing Gloves</span>
                         <h3 class="product-name">Pro Star Classic</h3>
                         <p class="product-material" data-translate="boxing-material">100% Leather</p>
                     </div>
                 </div>
-
                 <div class="product-card" data-category="boxing">
-                    <img src="https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=400&h=300&fit=crop&q=80" alt="Pro Star Elite Boxing Gloves" class="product-image">
+                    <img src="../images/products/boxing/gpt-image-1_Design_Charcoal_Gray.png" alt="Pro Star Elite Boxing Gloves" class="product-image">
                     <div class="product-info">
                         <span class="product-category category-boxing">Boxing Gloves</span>
                         <h3 class="product-name">Pro Star Elite</h3>
                         <p class="product-material" data-translate="boxing-material">100% Leather</p>
                     </div>
                 </div>
-
                 <div class="product-card" data-category="boxing">
-                    <img src="https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=400&h=300&fit=crop&q=80" alt="Pro Star Professional Boxing Gloves" class="product-image">
-                    <div class="product-info">
-                        <span class="product-category category-boxing">Boxing Gloves</span>
-                        <h3 class="product-name">Pro Star Professional</h3>
-                        <p class="product-material" data-translate="boxing-material">100% Leather</p>
-                    </div>
-                </div>
-
-                <div class="product-card" data-category="boxing">
-                    <img src="https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=400&h=300&fit=crop&q=80" alt="Pro Star Champion Boxing Gloves" class="product-image">
-                    <div class="product-info">
-                        <span class="product-category category-boxing">Boxing Gloves</span>
-                        <h3 class="product-name">Pro Star Champion</h3>
-                        <p class="product-material" data-translate="boxing-material">100% Leather</p>
-                    </div>
-                </div>
-
-                <div class="product-card" data-category="boxing">
-                    <img src="https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=400&h=300&fit=crop&q=80" alt="Pro Star Gold Boxing Gloves" class="product-image">
+                    <img src="../images/products/boxing/gpt-image-1_Create_Blood_Red_&_G.png" alt="Pro Star Gold Boxing Gloves" class="product-image">
                     <div class="product-info">
                         <span class="product-category category-boxing">Boxing Gloves</span>
                         <h3 class="product-name">Pro Star Gold</h3>
@@ -146,36 +105,25 @@
                     </div>
                 </div>
 
-                <div class="product-card" data-category="boxing">
-                    <img src="https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=400&h=300&fit=crop&q=80" alt="Pro Star Victory Boxing Gloves" class="product-image">
-                    <div class="product-info">
-                        <span class="product-category category-boxing">Boxing Gloves</span>
-                        <h3 class="product-name">Pro Star Victory</h3>
-                        <p class="product-material" data-translate="boxing-material">100% Leather</p>
-                    </div>
-                </div>
-
                 <!-- MMA Products -->
                 <div class="product-card" data-category="mma">
-                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop&q=80" alt="Pro Star Fighter MMA Gloves" class="product-image">
+                    <img src="../images/products/mma/gpt-image-1_Create_MMA_gloves_wi.png" alt="Pro Star Fighter MMA Gloves" class="product-image">
                     <div class="product-info">
                         <span class="product-category category-mma">MMA Gloves</span>
                         <h3 class="product-name">Pro Star Fighter</h3>
                         <p class="product-material" data-translate="mma-material">100% Leather</p>
                     </div>
                 </div>
-
                 <div class="product-card" data-category="mma">
-                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop&q=80" alt="Pro Star Warrior MMA Gloves" class="product-image">
+                    <img src="../images/products/mma/gpt-image-1_Create_red_MMA_glove.png" alt="Pro Star Warrior MMA Gloves" class="product-image">
                     <div class="product-info">
                         <span class="product-category category-mma">MMA Gloves</span>
                         <h3 class="product-name">Pro Star Warrior</h3>
                         <p class="product-material" data-translate="mma-material">100% Leather</p>
                     </div>
                 </div>
-
                 <div class="product-card" data-category="mma">
-                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop&q=80" alt="Pro Star Combat MMA Gloves" class="product-image">
+                    <img src="../images/products/mma/gpt-image-1_Design_MMA_gloves_in.png" alt="Pro Star Combat MMA Gloves" class="product-image">
                     <div class="product-info">
                         <span class="product-category category-mma">MMA Gloves</span>
                         <h3 class="product-name">Pro Star Combat</h3>
@@ -183,66 +131,28 @@
                     </div>
                 </div>
 
-                <div class="product-card" data-category="mma">
-                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop&q=80" alt="Pro Star Gladiator MMA Gloves" class="product-image">
-                    <div class="product-info">
-                        <span class="product-category category-mma">MMA Gloves</span>
-                        <h3 class="product-name">Pro Star Gladiator</h3>
-                        <p class="product-material" data-translate="mma-material">100% Leather</p>
-                    </div>
-                </div>
-
-                <div class="product-card" data-category="mma">
-                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop&q=80" alt="Pro Star Titan MMA Gloves" class="product-image">
-                    <div class="product-info">
-                        <span class="product-category category-mma">MMA Gloves</span>
-                        <h3 class="product-name">Pro Star Titan</h3>
-                        <p class="product-material" data-translate="mma-material">100% Leather</p>
-                    </div>
-                </div>
-
-                <div class="product-card" data-category="mma">
-                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop&q=80" alt="Pro Star Apex MMA Gloves" class="product-image">
-                    <div class="product-info">
-                        <span class="product-category category-mma">MMA Gloves</span>
-                        <h3 class="product-name">Pro Star Apex</h3>
-                        <p class="product-material" data-translate="mma-material">100% Leather</p>
-                    </div>
-                </div>
-
                 <!-- BJJ Products -->
                 <div class="product-card" data-category="bjj">
-                    <img src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?w=400&h=300&fit=crop&q=80" alt="Pro Star Master BJJ Gi" class="product-image">
+                    <img src="../images/products/bjj/gpt-image-1_Blue_BJJ_gi_front_an.png" alt="Pro Star Master BJJ Gi" class="product-image">
                     <div class="product-info">
                         <span class="product-category category-bjj">BJJ Gi</span>
-                        <h3 class="product-name">Pro Star Master Gi</h3>
+                        <h3 class="product-name">Pro Star Master</h3>
                         <p class="product-material" data-translate="bjj-material">100% Cotton</p>
                     </div>
                 </div>
-
                 <div class="product-card" data-category="bjj">
-                    <img src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?w=400&h=300&fit=crop&q=80" alt="Pro Star Elite BJJ Gi" class="product-image">
+                    <img src="../images/products/bjj/gpt-image-1_Blue_gi_full_view_ba.png" alt="Pro Star Classic BJJ Gi" class="product-image">
                     <div class="product-info">
                         <span class="product-category category-bjj">BJJ Gi</span>
-                        <h3 class="product-name">Pro Star Elite Gi</h3>
+                        <h3 class="product-name">Pro Star Classic</h3>
                         <p class="product-material" data-translate="bjj-material">100% Cotton</p>
                     </div>
                 </div>
-
                 <div class="product-card" data-category="bjj">
-                    <img src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?w=400&h=300&fit=crop&q=80" alt="Pro Star Classic BJJ Gi" class="product-image">
+                    <img src="../images/products/bjj/gpt-image-1_White_Brazilian_Jiu-.png" alt="Pro Star Champion BJJ Gi" class="product-image">
                     <div class="product-info">
                         <span class="product-category category-bjj">BJJ Gi</span>
-                        <h3 class="product-name">Pro Star Classic Gi</h3>
-                        <p class="product-material" data-translate="bjj-material">100% Cotton</p>
-                    </div>
-                </div>
-
-                <div class="product-card" data-category="bjj">
-                    <img src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?w=400&h=300&fit=crop&q=80" alt="Pro Star Champion BJJ Gi" class="product-image">
-                    <div class="product-info">
-                        <span class="product-category category-bjj">BJJ Gi</span>
-                        <h3 class="product-name">Pro Star Champion Gi</h3>
+                        <h3 class="product-name">Pro Star Champion</h3>
                         <p class="product-material" data-translate="bjj-material">100% Cotton</p>
                     </div>
                 </div>
