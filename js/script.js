@@ -20,7 +20,7 @@ const translations = {
         
         // About section
         'about-title': 'About Us',
-        'about-p1': 'Pro Star is a martial arts equipment company based in Carpi (Modena), Italy, founded in 2025. Our mission is to provide high-quality gear that combines excellent craftsmanship, sleek design, and affordability.',
+        'about-p1': 'Pro Star is a martial arts equipment company based in Carpi (Modena), Italy. Our mission is to provide high-quality gear that combines excellent craftsmanship, sleek design, and affordability.',
         'about-p2': 'Whether you\'re a beginner or a professional, we believe everyone deserves access to top-tier equipment. We specialize in Boxing, MMA, and Brazilian Jiu Jitsu (BJJ) apparel and accessories — carefully selected and crafted to support performance and durability.',
         'about-p3': 'For more information, feel free to contact us at',
         
@@ -80,7 +80,7 @@ const translations = {
         
         // About section
         'about-title': 'Chi Siamo',
-        'about-p1': 'Pro Star è un\'azienda di attrezzature per arti marziali con sede a Carpi (Modena), Italia, fondata nel 2025. La nostra missione è fornire attrezzature di alta qualità che combinano eccellente maestria, design elegante e convenienza.',
+        'about-p1': 'Pro Star è un\'azienda di attrezzature per arti marziali con sede a Carpi (Modena), Italia. La nostra missione è fornire attrezzature di alta qualità che combinano eccellente maestria, design elegante e convenienza.',
         'about-p2': 'Che tu sia un principiante o un professionista, crediamo che tutti meritino l\'accesso ad attrezzature di primo livello. Siamo specializzati in abbigliamento e accessori per Boxe, MMA e Brazilian Jiu Jitsu (BJJ) — accuratamente selezionati e realizzati per supportare prestazioni e durata.',
         'about-p3': 'Per maggiori informazioni, non esitare a contattarci a',
         
