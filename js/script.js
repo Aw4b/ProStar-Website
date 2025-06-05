@@ -22,7 +22,7 @@ const translations = {
         'about-title': 'About Us',
         'about-p1': 'Pro Star is a martial arts equipment company based in Carpi (Modena), Italy. Our mission is to provide high-quality gear that combines excellent craftsmanship, sleek design, and affordability.',
         'about-p2': 'Whether you\'re a beginner or a professional, we believe everyone deserves access to top-tier equipment. We specialize in Boxing, MMA, and Brazilian Jiu Jitsu (BJJ) apparel and accessories — carefully selected and crafted to support performance and durability.',
-        'about-p3': 'For more information, feel free to contact us at',
+        'about-p3': 'For more information, feel free to contact us at <a href="mailto:prostarsrls@gmail.com" class="contact-link">prostarsrls@gmail.com</a>.',
         
         // Materials
         'boxing-material': '100% Leather',
@@ -82,7 +82,7 @@ const translations = {
         'about-title': 'Chi Siamo',
         'about-p1': 'Pro Star è un\'azienda di attrezzature per arti marziali con sede a Carpi (Modena), Italia. La nostra missione è fornire attrezzature di alta qualità che combinano eccellente maestria, design elegante e convenienza.',
         'about-p2': 'Che tu sia un principiante o un professionista, crediamo che tutti meritino l\'accesso ad attrezzature di primo livello. Siamo specializzati in abbigliamento e accessori per Boxe, MMA e Brazilian Jiu Jitsu (BJJ) — accuratamente selezionati e realizzati per supportare prestazioni e durata.',
-        'about-p3': 'Per maggiori informazioni, non esitare a contattarci a',
+        'about-p3': 'Per maggiori informazioni, non esitare a contattarci a <a href="mailto:prostarsrls@gmail.com" class="contact-link">prostarsrls@gmail.com</a>.',
         
         // Materials
         'boxing-material': '100% Pelle',
@@ -218,11 +218,10 @@ function switchLanguage(lang) {
 
 function updateTranslations() {
     const elementsToTranslate = document.querySelectorAll('[data-translate]');
-    
     elementsToTranslate.forEach(element => {
         const key = element.getAttribute('data-translate');
         if (translations[currentLanguage] && translations[currentLanguage][key]) {
-            element.textContent = translations[currentLanguage][key];
+            element.innerHTML = translations[currentLanguage][key]; // Use innerHTML for HTML content
         }
     });
 }
