@@ -187,7 +187,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeCarousel();
     switchLanguage('en');
     initializePage();
-    updatePageTitleAndMeta(); // Add this new function call
+    updatePageTitleAndMeta();
 });
 
 // NEW FUNCTION: Update page titles and meta descriptions
@@ -219,6 +219,17 @@ function updatePageTitleAndMeta() {
     if (metaDesc && translations[currentLanguage][metaKey]) {
         metaDesc.setAttribute('content', translations[currentLanguage][metaKey]);
     }
+}
+
+// NEW FUNCTION: Update alt text for images
+function updateAltText() {
+    const imagesWithAltTranslate = document.querySelectorAll('[data-translate-alt]');
+    imagesWithAltTranslate.forEach(img => {
+        const altKey = img.getAttribute('data-translate-alt');
+        if (translations[currentLanguage] && translations[currentLanguage][altKey]) {
+            img.setAttribute('alt', translations[currentLanguage][altKey]);
+        }
+    });
 }
 
 // Carousel functionality
@@ -297,7 +308,8 @@ function switchLanguage(lang) {
     
     // Update all translatable elements
     updateTranslations();
-    updatePageTitleAndMeta(); // Update titles and meta
+    updatePageTitleAndMeta();
+    updateAltText(); // Add this line
     
     // Store language preference
     localStorage.setItem('preferred-language', lang);
@@ -308,7 +320,7 @@ function updateTranslations() {
     elementsToTranslate.forEach(element => {
         const key = element.getAttribute('data-translate');
         if (translations[currentLanguage] && translations[currentLanguage][key]) {
-            element.innerHTML = translations[currentLanguage][key]; // Use innerHTML for HTML content
+            element.innerHTML = translations[currentLanguage][key];
         }
     });
 }
