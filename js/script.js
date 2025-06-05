@@ -190,7 +190,7 @@ document.addEventListener('DOMContentLoaded', function() {
     updatePageTitleAndMeta();
 });
 
-// NEW FUNCTION: Update page titles and meta descriptions
+// Update page titles and meta descriptions
 function updatePageTitleAndMeta() {
     const currentPath = window.location.pathname;
     let titleKey, metaKey;
@@ -221,7 +221,7 @@ function updatePageTitleAndMeta() {
     }
 }
 
-// NEW FUNCTION: Update alt text for images
+// Update alt text for images
 function updateAltText() {
     const imagesWithAltTranslate = document.querySelectorAll('[data-translate-alt]');
     imagesWithAltTranslate.forEach(img => {
@@ -309,7 +309,7 @@ function switchLanguage(lang) {
     // Update all translatable elements
     updateTranslations();
     updatePageTitleAndMeta();
-    updateAltText(); // Add this line
+    updateAltText();
     
     // Store language preference
     localStorage.setItem('preferred-language', lang);
