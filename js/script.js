@@ -1,6 +1,16 @@
 // Language translations
 const translations = {
     en: {
+        // Page titles and meta
+        'page-title-home': 'Pro Star Martial Arts Equipment',
+        'page-title-products': 'Products - Pro Star Martial Arts Equipment', 
+        'page-title-contact': 'Contact Us - Pro Star Martial Arts Equipment',
+        'page-title-faq': 'FAQ - Pro Star Martial Arts Equipment',
+        'meta-desc-home': 'Welcome to Pro Star Martial Arts Equipment - Professional gear for Boxing, MMA, and Brazilian Jiu Jitsu. Quality from Italy.',
+        'meta-desc-products': 'Explore Pro Star\'s collection of martial arts equipment for Boxing, MMA, and Brazilian Jiu Jitsu.',
+        'meta-desc-contact': 'Contact Pro Star for professional martial arts equipment. Email: prostarsrls@gmail.com, Phone: +39 366 130 7596',
+        'meta-desc-faq': 'Frequently asked questions about Pro Star martial arts equipment. Learn about purchasing, materials, shipping, and more.',
+        
         // Navigation
         'nav-home': 'Home',
         'nav-products': 'Products',
@@ -31,6 +41,11 @@ const translations = {
         
         // Products page
         'products-title': 'Our Products',
+        'products-subtitle': 'Explore our premium martial arts equipment for Boxing, MMA, and Brazilian Jiu Jitsu.',
+        'products-boxing-heading': 'Boxing',
+        'products-mma-heading': 'MMA', 
+        'products-bjj-heading': 'BJJ',
+        'product-code': 'Code:',
         'filter-all': 'All',
         'filter-boxing': 'Boxing',
         'filter-mma': 'MMA',
@@ -40,11 +55,16 @@ const translations = {
         'contact-title': 'Contact Us',
         'contact-subtitle': 'If you\'re interested in our products, contact us here:',
         'contact-email': 'Email',
+        'contact-email-desc': 'Send us a message',
         'contact-phone': 'Phone',
+        'contact-phone-desc': 'Call us directly',
         'contact-location': 'Location',
+        'contact-location-desc': 'Our headquarters',
+        'contact-address': 'Dorando Pietri n.21, Carpi (Modena), Italy',
         
         // FAQ page
         'faq-title': 'Frequently Asked Questions',
+        'faq-subtitle': 'Everything you need to know about Pro Star equipment',
         'faq-q1': 'How can we buy a product?',
         'faq-a1': 'By contacting us via email (prostarsrls@gmail.com) or phone (+39 366 130 7596).',
         'faq-q2': 'What materials do you use for your products?',
@@ -58,9 +78,26 @@ const translations = {
         
         // Footer
         'footer-description': 'Professional martial arts equipment from Carpi, Italy. Quality gear for Boxing, MMA, and Brazilian Jiu Jitsu.',
-        'footer-rights': 'All rights reserved.'
+        'footer-rights': 'All rights reserved.',
+        'footer-copyright': '© 2025 Pro Star.',
+        
+        // Alt text for images
+        'alt-logo': 'Pro Star Logo',
+        'alt-boxing-product': 'Boxing Product',
+        'alt-mma-product': 'MMA Product',
+        'alt-bjj-product': 'BJJ Product'
     },
     it: {
+        // Page titles and meta
+        'page-title-home': 'Pro Star Attrezzature Arti Marziali',
+        'page-title-products': 'Prodotti - Pro Star Attrezzature Arti Marziali',
+        'page-title-contact': 'Contattaci - Pro Star Attrezzature Arti Marziali',
+        'page-title-faq': 'FAQ - Pro Star Attrezzature Arti Marziali',
+        'meta-desc-home': 'Benvenuti a Pro Star Attrezzature Arti Marziali - Attrezzature professionali per Boxe, MMA e Brazilian Jiu Jitsu. Qualità dall\'Italia.',
+        'meta-desc-products': 'Esplora la collezione di attrezzature per arti marziali Pro Star per Boxe, MMA e Brazilian Jiu Jitsu.',
+        'meta-desc-contact': 'Contatta Pro Star per attrezzature professionali per arti marziali. Email: prostarsrls@gmail.com, Telefono: +39 366 130 7596',
+        'meta-desc-faq': 'Domande frequenti sulle attrezzature per arti marziali Pro Star. Scopri acquisti, materiali, spedizioni e altro.',
+        
         // Navigation
         'nav-home': 'Home',
         'nav-products': 'Prodotti',
@@ -91,6 +128,11 @@ const translations = {
         
         // Products page
         'products-title': 'I Nostri Prodotti',
+        'products-subtitle': 'Esplora le nostre attrezzature premium per arti marziali per Boxe, MMA e Brazilian Jiu Jitsu.',
+        'products-boxing-heading': 'Boxe',
+        'products-mma-heading': 'MMA',
+        'products-bjj-heading': 'BJJ',
+        'product-code': 'Codice:',
         'filter-all': 'Tutti',
         'filter-boxing': 'Boxe',
         'filter-mma': 'MMA',
@@ -100,11 +142,16 @@ const translations = {
         'contact-title': 'Contattaci',
         'contact-subtitle': 'Se sei interessato ai nostri prodotti, contattaci qui:',
         'contact-email': 'Email',
+        'contact-email-desc': 'Inviaci un messaggio',
         'contact-phone': 'Telefono',
+        'contact-phone-desc': 'Chiamaci direttamente',
         'contact-location': 'Posizione',
+        'contact-location-desc': 'La nostra sede centrale',
+        'contact-address': 'Dorando Pietri n.21, Carpi (Modena), Italia',
         
         // FAQ page
         'faq-title': 'Domande Frequenti',
+        'faq-subtitle': 'Tutto quello che devi sapere sulle attrezzature Pro Star',
         'faq-q1': 'Come possiamo acquistare un prodotto?',
         'faq-a1': 'Contattandoci via email (prostarsrls@gmail.com) o telefono (+39 366 130 7596).',
         'faq-q2': 'Quali materiali utilizzate per i vostri prodotti?',
@@ -118,7 +165,14 @@ const translations = {
         
         // Footer
         'footer-description': 'Attrezzature professionali per arti marziali da Carpi, Italia. Attrezzature di qualità per Boxe, MMA e Brazilian Jiu Jitsu.',
-        'footer-rights': 'Tutti i diritti riservati.'
+        'footer-rights': 'Tutti i diritti riservati.',
+        'footer-copyright': '© 2025 Pro Star.',
+        
+        // Alt text for images
+        'alt-logo': 'Logo Pro Star',
+        'alt-boxing-product': 'Prodotto Boxe',
+        'alt-mma-product': 'Prodotto MMA',
+        'alt-bjj-product': 'Prodotto BJJ'
     }
 };
 
@@ -133,7 +187,39 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeCarousel();
     switchLanguage('en');
     initializePage();
+    updatePageTitleAndMeta(); // Add this new function call
 });
+
+// NEW FUNCTION: Update page titles and meta descriptions
+function updatePageTitleAndMeta() {
+    const currentPath = window.location.pathname;
+    let titleKey, metaKey;
+    
+    if (currentPath.includes('products.html')) {
+        titleKey = 'page-title-products';
+        metaKey = 'meta-desc-products';
+    } else if (currentPath.includes('contact.html')) {
+        titleKey = 'page-title-contact';
+        metaKey = 'meta-desc-contact';
+    } else if (currentPath.includes('faq.html')) {
+        titleKey = 'page-title-faq';
+        metaKey = 'meta-desc-faq';
+    } else {
+        titleKey = 'page-title-home';
+        metaKey = 'meta-desc-home';
+    }
+    
+    // Update title
+    if (translations[currentLanguage][titleKey]) {
+        document.title = translations[currentLanguage][titleKey];
+    }
+    
+    // Update meta description
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc && translations[currentLanguage][metaKey]) {
+        metaDesc.setAttribute('content', translations[currentLanguage][metaKey]);
+    }
+}
 
 // Carousel functionality
 function initializeCarousel() {
@@ -211,6 +297,7 @@ function switchLanguage(lang) {
     
     // Update all translatable elements
     updateTranslations();
+    updatePageTitleAndMeta(); // Update titles and meta
     
     // Store language preference
     localStorage.setItem('preferred-language', lang);
