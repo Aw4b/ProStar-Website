@@ -64,6 +64,16 @@
     font-weight: 600;
 }
 
+.contact-link {
+    color: #f59e0b; /* yellow-400 */
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+    color: #d97706; /* yellow-600 */
+}
+
 /* Carousel Styles */
 .carousel-container {
     position: relative;
